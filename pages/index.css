@@ -3,7 +3,6 @@
    max-width: 1600px;
    background-position: center;
    font-family: 'Inter', Arial, sans-serif;
-   font-family: 'Noto Serif', Times, serif;
    font-size: 16px;
    line-height: 20px;
    margin-right: auto;
@@ -11,7 +10,7 @@
 }
 
 .header{
-
+   font-family: 'Noto Serif', Times, serif;
 }
 
 .content {
