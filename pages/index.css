@@ -11,11 +11,116 @@
 
 .header{
    font-family: 'Noto Serif', Times, serif;
+   background-color: #FFFFFF;
+   background-image: url(../images/se_project_2_files/background_header.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 720px;
+   max-height: 800px;
+   height: 100vh;
+}  
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.nav__logo {
+   position: relative;
+   width: 105px;
+   height: 39px;
+   margin-left: 30px;
+   margin-top: 30px;
+   
+}
+
+.nav__link{
+ display: flex;
+ list-style-type: none;
+ column-gap: 20px;
+ margin-right: 80px;
+ margin-top: 30px;
+ font-family: "Inter";
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 20px;
+}
+
+.header__title{
+   max-width: 729px;
+   height: 80px;
+   line-height: 40px;
+   margin-left: 80px;
+}
+
+.header__span-accent{
+   display: inline-block;
+   font-family: "Noto Serif";
+   font-style: italic;
+   font-weight: normal;
+   font-size: 60px;
+   line-height: 72px;
+   color: #2F80ED;
+}
+
+.header__span_new-line{
+   display: block;
+   font-family: "Inter";
+   max-width: 729px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 60px;
+   line-height: 72px;
+   letter-spacing: -0.6px;
+}
+
+.header__description{
+   max-width: 683px;
+   margin-left: 80px;
+   margin-top: 28px;
+   font-family: "Noto Serif";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.header__image{
+   position: absolute;
+   right: 5px;
+   top: 124px;
+   height: 568px;
+   width: 646px;
+}
+
+.header__footer{
+   margin-top: auto;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-sizing: border-box;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #838383;
+ }
+
+
+.header__paragraph{
+   margin: 0;
 }
 
 .content {
 
 }
+
+
 
 .recipes{
 
