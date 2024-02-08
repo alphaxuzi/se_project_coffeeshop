@@ -109,7 +109,7 @@
    
 }
 
-.nav__link{
+.nav__links{
  display: flex;
  list-style-type: none;
  column-gap: 20px;
