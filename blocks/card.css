@@ -1,3 +1,23 @@
 .card{
     width: 540px;
+    list-style-type: none;
+}
+
+.card__title{
+    margin: 0 0 16px;
+}
+
+.card__list{
+    list-style-type: none;
+}
+
+
+.cad__list-item{
+    margin: 16px 0 0;
+    display: flex;
+}
+
+.card__list-divider{
+    border-bottom: 1px solid black;
+    flex-grow: 1;
 }
