@@ -257,14 +257,18 @@ color: #838383;
    height: 60px;
    width: 385px;
    font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   background-color: #2f80ed;
+   color: white;
+   line-height: 20px;
+   transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
 .form__button:hover{
-   transition: ;
+   background-color: #2f80ed;
+   opacity: .7;
 }
 
 .form__checkbox{
