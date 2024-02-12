@@ -1,5 +1,4 @@
 .header{
-    font-family: 'Noto Serif', Times, serif;
     background-color: #FFFFFF;
     background-image: url(../images/background_header.svg);
     background-size: cover;
@@ -10,20 +9,17 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 0;
-    padding-bottom: 0%;
  }  
  
  .header__title{
     max-width: 729px;
-    line-height: 40px;
     margin-left: 80px;
     margin-top: 183px;
     margin-bottom: 0;
     max-width: 729px;
-    font-family: 'Inter', Arial;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.6px;
@@ -31,7 +27,7 @@
  
  .header__span-accent{
     display: block;
-    font-family: "Noto Serif", 'Times New Roman';
+    font-family: 'Noto Serif', Times, serif;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;
@@ -44,7 +40,7 @@
     margin-left: 80px;
     margin-top: 28px;
     margin-bottom: 0;
-    font-family: "Noto Serif", 'Times New Roman';
+    font-family: 'Noto Serif', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -65,7 +61,7 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    font-family: "Inter", Arial;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     color: #838383;
@@ -81,4 +77,5 @@
  
  .header__paragraph{
     position: relative;
+    margin: 0;
  }
