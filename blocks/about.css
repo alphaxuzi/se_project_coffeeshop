@@ -28,6 +28,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .about__content {
@@ -41,7 +42,7 @@
 
 .about__paragraph {
   color: white;
-  font-family: "Noto Serif", Times, serif;
+  font-family: "Noto Serif", 'Times New Roman', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

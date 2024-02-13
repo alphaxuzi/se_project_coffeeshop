@@ -37,6 +37,7 @@
   font-size: 20px;
   line-height: 30px;
   box-sizing: border-box;
+  border: 1px solid #838383;
 }
 
 .form__input::placeholder {
@@ -56,6 +57,8 @@
   line-height: 20px;
   transition: background-color 0.3s ease, opacity 0.3s ease;
   border-style: none;
+  border-radius: 4px;
+
 }
 
 .form__button:hover {
