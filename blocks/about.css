@@ -20,7 +20,6 @@
 }
 
 .about__title {
-  margin: 19px auto 0 0;
   max-width: 251px;
   z-index: 2;
   color: white;
@@ -32,6 +31,8 @@
 }
 
 .about__content {
+  margin-top: 19px;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
